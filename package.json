@@ -1,0 +1,16 @@
+{
+  "name": "nuke-firebase",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Wipe a Firebase project clean.",
+  "bin": {
+    "nuke-firebase": "./nuke.sh"
+  },
+  "scripts": {
+    "nuke": "./nuke.sh"
+  },
+  "dependencies": {
+    "firebase-admin": "^13.0.0",
+    "google-auth-library": "^9.0.0"
+  }
+}
